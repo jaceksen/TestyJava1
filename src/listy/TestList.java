@@ -56,6 +56,9 @@ public class TestList {
 				if (l2.getNazwisko().equals(l1.getNazwisko())) {
 					doUsuniecia.add(l2);
 				}
+				if(l2.getNazwisko().contains(l1.getNazwisko())) {
+					System.out.println("Jest nazwisko: " + l2.getNazwisko());
+				}
 			}
 
 			lista3.add(l2);
